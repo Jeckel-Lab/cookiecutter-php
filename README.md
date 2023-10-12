@@ -7,7 +7,12 @@
 ## Features
 
 * Automated [Composer] Setup
-* Testing setup with [PHPStan] and [PHPUnit] (`composer test`)
+* Testing setup with 
+  * [PHPStan](https://phpstan.org/)
+  * [PHPUnit](https://phpunit.de/)
+  * [Infection](https://infection.github.io/)
+  * [PHP-CS](https://github.com/squizlabs/PHP_CodeSniffer)
+  * [PHP-MD](https://phpmd.org/)
 * Ready-to-go GitHub Actions
 
 ## Quickstart
