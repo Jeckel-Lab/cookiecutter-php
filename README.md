@@ -2,6 +2,8 @@
 
 [Cookiecutter] template to kickstart new PHP projects.
 
+> 🚀 Forked from the original [PHP Cookicutter](https://github.com/jeromegamez/cookiecutter-php) by [Jérôme Gamez](https://github.com/jeromegamez) 
+
 ## Features
 
 * Automated [Composer] Setup
@@ -21,7 +23,7 @@ $ brew install cookiecutter
 Generate a new PHP project:
 
 ```shell
-$ cookiecutter gh:jeromegamez/cookiecutter-php
+$ cookiecutter gh:Jeckel-Lab/cookiecutter-php
 ```
 
 ## Demo

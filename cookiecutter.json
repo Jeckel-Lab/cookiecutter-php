@@ -1,7 +1,7 @@
 {
-	"full_name": "Jérôme Gamez",
-	"email": "jerome@gamez.name",
-	"github_username": "jeromegamez",
+	"full_name": "Julien Mercier-Rojas",
+	"email": "julien@jeckel-lab.fr",
+	"github_username": "jeckel",
 	"project_name": "My Library",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
 	"project_type": "library",

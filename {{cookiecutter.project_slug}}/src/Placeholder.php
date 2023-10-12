@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @author: {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
+ * Created at: {% now 'utc', '%Y-%m-%d' %}
+ */
+
 declare(strict_types=1);
 
 namespace {{ cookiecutter.psr4_namespace }};
