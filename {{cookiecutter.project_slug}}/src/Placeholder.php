@@ -13,8 +13,8 @@ final class Placeholder
         $this->prefix = $prefix;
     }
 
-    public function echo(string $value): string
+    public function echo(string $v): string
     {
-        return $this->prefix.$value;
+        return $this->prefix.$v;
     }
 }

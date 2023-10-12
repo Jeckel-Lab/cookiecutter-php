@@ -24,7 +24,7 @@ final class PlaceholderTest extends TestCase
     /**
      * @test
      */
-    public function it_echoes_a_value(): void
+    public function testItEchoesSomething(): void
     {
         self::assertSame('{{ cookiecutter.full_name }} says: Hello', $this->placeholder->echo('Hello'));
     }
