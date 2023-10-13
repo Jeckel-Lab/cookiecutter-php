@@ -11,8 +11,9 @@
   * [PHPStan](https://phpstan.org/)
   * [PHPUnit](https://phpunit.de/)
   * [Infection](https://infection.github.io/)
-  * [PHP-CS](https://github.com/squizlabs/PHP_CodeSniffer)
+  * [PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer)
   * [PHP-MD](https://phpmd.org/)
+  * ...
 * Ready-to-go GitHub Actions
 
 ## Quickstart
