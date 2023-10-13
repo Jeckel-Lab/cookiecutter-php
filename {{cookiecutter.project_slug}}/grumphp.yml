@@ -3,14 +3,23 @@ grumphp:
     github_actions:
       tasks:
         - composer_require_checker
-        - phpcs
         - phpmd
         - phpstan
+        - phpcsfixer
   tasks:
-    phpcs:
-      whitelist_patterns:
-        - /^src\/(.*)/
-        - /^tests\/(.*)/
+    phpcsfixer:
+      allow_risky: ~
+      cache_file: ~
+      config: ~
+      rules:
+        line_ending: true
+        array_syntax:
+          syntax: short
+      using_cache: ~
+      config_contains_finder: false
+      verbose: true
+      diff: false
+      triggered_by: ['php']
     phpmd:
       whitelist_patterns:
         - /^src\/(.*)/
