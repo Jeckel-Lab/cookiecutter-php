@@ -10,6 +10,10 @@
 [![Tests](https://github.com/{{ cookiecutter.composer_package_name }}/actions/workflows/tests.yml/badge.svg)](https://github.com/{{ cookiecutter.composer_package_name }}/actions/workflows/tests.yml)
 -->
 
+> 🚀 Project generated with [Jeckel-Lab/cookiecutter-php](https://github.com/Jeckel-Lab/cookiecutter-php)
+
+> 🚧 Project is in **Work In Progress** status 🚧
+
 ## Installation
 
 ```shell
